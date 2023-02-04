@@ -55,8 +55,78 @@ span {
     margin: 10px;
 
 }
+.links a:hover {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    width: 40px;
+    margin: 10px;
+    border-bottom: solid 3px white;
+
+}
 
 
+.hero-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.hero {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    margin-bottom: 40px;
+}
 
+.hero-text {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+    flex-grow: 1;
+    font-size: 20px;
+}
+.hero-text h1,
+.hero-text p {
+    padding: 10px 0;
+}
 
+.hero-text p {
+    margin-bottom: 20px;
+}
+.logo.one {
+    font-size: 45px;
+}
+.hero-text a {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+.hero-text a:hover {
+    text-decoration: none;
+    color: yellow;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: solid 2px yellow;
+    
+}
+
+.hero-image {
+    width: 600px;
+    flex-shrink: 3;
+}
+.hero img {
+    width: 600px;
+    border-radius: 10px;
+   
+}
 
