@@ -37,7 +37,7 @@ body {
     color: white;
     font-family: 'Poppins';
     font-size: 25px;
-    font-weight: 800;
+    font-weight: 1000;
     text-transform: uppercase;
 }
 
@@ -97,11 +97,23 @@ span {
     padding: 10px 0;
 }
 
+.hero-text h1 {
+    font-size: 50px;
+    font-family: 'Exo';
+    padding-right: 20px;
+    font-weight: 800;
+
+}
+
 .hero-text p {
     margin-bottom: 20px;
 }
+
+
+
 .logo.one {
     font-size: 45px;
+    
 }
 .hero-text a {
     text-decoration: none;
@@ -180,3 +192,30 @@ span {
 }
 
 
+.quote-container {
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: center;
+}
+
+.quote-wrapper {
+    width: 1200px;
+    margin: 100px 0 100px 0;
+}
+
+.quote-item-one {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quote-item-two {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 35px;
+    font-family: 'Noto Sans';
+    font-weight: 1000;
+
+}
